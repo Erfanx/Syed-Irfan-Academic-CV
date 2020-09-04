@@ -1,0 +1,109 @@
+\documentclass{irfan}
+\setname{Syed Md. Irfanul Alam}{}
+\setmail{}
+\setmobile{}
+\setaddress{}
+\setposition{Work Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/syedirfanx/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://www.github.com/erfanx} %you can play with color of the template (red is also nice..)
+\setwebsite{https://syedirfan.netlify.app/}
+\setthemecolor{RedViolet} %you can play with color of the template (red is also nice..)
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Career Objective}{
+Interested in the role of a Software Engineer \& Machine Learning Engineer where I can contribute my analytical skills and knowledge acquired by pursuing my degree in Computer Science. Looking for a progressive company where my skills are utilized in the maximum way possible.\
+}
+%
+%Education
+\section{Education} 
+    \datedexperience{North South University}{January 2015 - April 2020 / Bashundhara RA, Dhaka}
+    \explanationdetail{\coloredbullet\ % 
+     \textbf{Bachelor of Science in Computer Science \& Engineering} %replace this part with actual text
+     }
+     \explanationdetail{\coloredbullet\ % 
+     \textbf{Specialized Trail -} Deep Learning, \textbf{Thesis -} Generating Faces from Fingerprints Using Artificial Neural Networks. %replace this part with actual text
+     }
+    \datedexperience{Bangladesh Navy College}{July 2012 - June 2014 / Sailors Colony-1, Bandar, Chittagong} 
+    \explanationdetail{\coloredbullet\ % 
+     \textbf{Higher Secondary School Certificate [HSC]}, \textbf{Group -} Science, % 
+     \textbf{GPA -} 4.30/5.00 %replace this part with actual text
+     }
+    \datedexperience{Nasirabad Govt. High School}{January 2010 - March 2012 /  East Nasirabad, Chittagong} 
+     \explanationdetail{\coloredbullet\ % 
+     \textbf{Secondary School Certificate [SSC]}, \textbf{Group -} Science, % 
+     \textbf{GPA -} 5.0/5.0  %replace this part with actual text
+     }
+%
+% Experience
+\section{Experience}
+    %
+    \datedexperience{\textbf{\href{https://codephilics.com.au/}{Codephilics}}, software engineer}{March 2020 - Present / Bashundhara RA, Dhaka} 
+    \explanationdetail{\coloredbullet\ As a Software Engineer, I've worked with Study Theatre iOS App, NID-OCR, Face Mask Detection and other projects. %replace this part with actual text
+     }
+    %
+    \datedexperience{\textbf{\href{https://www.toastmasters.org/}{Toastmaster International}}, official member}{May 2017 - February 2018 / Bashundhara RA, Dhaka} 
+    \explanationdetail{\coloredbullet\ During this membership, I have participated in public speaking contests and developed my communication skills.  %replace this part with actual text
+     }
+%
+%Education
+\section{Projects} 
+    \datedexperience{Face Mask Detection \& Warning System}{July 2020 / Codephilics} 
+    \explanationdetail{\coloredbullet\ \textbf {Technologies -} Keras, Tensorflow, CNN, Python, Jupyter Notebook}
+     \explanationdetail{\coloredbullet\ % 
+     During the pandemic it is difficult to monitor every person entering in any institution whether they wear mask or not. This autonomous system will notify any person who will enter there without mask. %replace this part with actual text
+     }
+    \datedexperience{Traffic Monitor App}{April 2019 / Junior Project Design} 
+    \explanationdetail{\coloredbullet\ %
+     \textbf {Technologies -} Android Studio, Java, GPS, Google Firebase. %replace this part with actual text
+     }
+    \explanationdetail{\coloredbullet\ %
+     This project is about to ensure safe road. By this app a traffic police of any area can detect any driver who will exceed the speed limit of 40kph in front of Schools, Colleges, Universities, Hospitals and any other sensitive places. %replace this part with actual text
+     }
+%
+% Skills
+\section{Skills}
+    %
+    \newcommand{\skillone}{\createskill{Programming Languages}{Python, Javascript, Java, R, C++, C}}
+    %
+    \newcommand{\skilltwo}{\createskill{Software Development}{ GIT, CLI, Visual Studio Code, Agile Methodology}}
+    %
+    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{Jupyter, Matplotplib, Numpy, Pandas, Scikit-learn, PyTorch, Tensorflow}}
+    %
+    \newcommand{\skillfour}{\createskill{Mobile App Development}{Dart, Flutter, Android Studio, }\textbf{OS} \ \  Linux, Windows \ \  } 
+    %
+    \newcommand{\skillnine}{\createskill{Tools \& Platforms}{Anaconda, PyCharm, LateX, MS Excel, Arduino } }
+    %
+    \newcommand{\skillseven}{\createskill{Personal Skills}{Critical Thinking, Team Work, Adaptability, Research, Planning \& Organizing }}
+    %
+    \newcommand{\skilleight}{\createskill{Languages}{\textbf{\emph{Fluent:}} \ \  Bangla \ \ \textbf{\emph{Fluent:}} \ \ English \ \ }}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillnine, \skillseven, \skilleight}
+%
+% Experience
+\section{Publication}
+    \newcommand{\extraone}{%
+    Rice Leaf Disease Detection Using Machine Learning Techniques, International Conference on Sustainable Technologies for Industry 4.0 (STI, 2019, IEEE), Dhaka, Bangladesh %replace this part with actual text
+    }
+
+    %
+    \newcommand{\listofextras}{\extraone}
+    %
+    \createbullets{\listofextras}
+%
+%Education
+\section{Certifications} 
+     \datedexperience{\coloredbullet\ % 
+     Machine Learning Foundations [ by university of washington ]}{June 2020 / Coursera} %replace this part with actual text
+          \datedexperience{\coloredbullet\ % 
+     Technical Support Fundamentals [ by google ]}{May 2020 / Coursera}
+     \datedexperience{\coloredbullet\ % 
+     Neural Networks \& Deep Learning [ by deeplearning.ai ]}{April 2020 / Coursera}
+\createfootnote
+\end{document}
