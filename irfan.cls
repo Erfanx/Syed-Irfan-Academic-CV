@@ -77,7 +77,7 @@
     
     
 \newcommand{\githubview}{\href{\@linkedinaccount}{\faLinkedin\ \footnotesize https://www.linkedin.com/in/syedirfanx/}}
-\newcommand{\linkedinview}{\href{\@githubaccount}{\faGithub\ \footnotesize https://github.com/Erfanx}}
+\newcommand{\linkedinview}{\href{\@githubaccount}{\faGithub\ \footnotesize https://github.com/syedirfanx}}
 \newcommand{\websiteview}{\href{\@website}{\faGlobe\ \footnotesize https://syedirfan.netlify.app/}}
 \newcommand{\locationview}{{\@address}{\faMapMarker\ \footnotesize Bashundhara RA, Dhaka, Bangladesh}}
 \newcommand{\mailview}{{\@mail}{\faEnvelope\ \footnotesize irfansyed479@gmail.com}}
