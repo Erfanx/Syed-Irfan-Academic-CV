@@ -76,9 +76,9 @@
 %contactsubviews 
     
     
-\newcommand{\githubview}{\href{\@linkedinaccount}{\faLinkedin\ \footnotesize https://www.linkedin.com/in/syedirfanx/}}
+\newcommand{\githubview}{\href{\@linkedinaccount}{\faLinkedin\ \footnotesize https://www.linkedin.com/in/syedirfanx}}
 \newcommand{\linkedinview}{\href{\@githubaccount}{\faGithub\ \footnotesize https://github.com/syedirfanx}}
-\newcommand{\websiteview}{\href{\@website}{\faGlobe\ \footnotesize https://syedirfan.netlify.app/}}
+\newcommand{\websiteview}{\href{\@website}{\faGlobe\ \footnotesize https://syedirfanx.me}}
 \newcommand{\locationview}{{\@address}{\faMapMarker\ \footnotesize Bashundhara RA, Dhaka, Bangladesh}}
 \newcommand{\mailview}{{\@mail}{\faEnvelope\ \footnotesize irfansyed479@gmail.com}}
 \newcommand{\mobileview}{{\@mobile}{\faPhone\ \footnotesize +8801787707446}}
@@ -200,7 +200,7 @@ Position: & \@claimedposition \\
 
 \newcommand\createfootnote{%
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
-    \renewcommand\footnoterule{\rule{0.524\linewidth}{0.5pt}}
+    \renewcommand\footnoterule{\rule{0.530\linewidth}{0.5pt}}
     \let\thefootnote\relax\footnote{{\today}
   {. \textcopyright{ Syed Md. Irfanul Alam} . Curriculum Vitae . Powered by LaTeX}
   {}}}
